@@ -1,0 +1,507 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.contaner {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url(young-successful-businessman-correcting-tie.webp);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.fa-moon {
+    font-size: 24px;
+    color: white;
+    margin-left: 0px;
+    cursor: pointer;
+}
+
+:root {
+    --priamry-color: #edf2fc;
+    --seconday-color: #212121;
+}
+
+h1 {
+    font-size: 3rem;
+    color: rgb(136, 136, 170);
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.7rem;
+}
+
+p {
+    font-size: 1.4rem;
+    color: rgb(151, 148, 148);
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(246, 244, 244);
+}
+
+.cap {
+    color: rgb(143, 122, 60);
+}
+
+nav {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.logo-text {
+    font-size: 40px;
+    color: rgb(231, 231, 237);
+}
+
+.nav-manu {
+    gap: 40px;
+    display: flex;
+}
+
+.manu {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.manu a {
+    padding: 8px 17px;
+    margin: 0px;
+    position: relative;
+}
+
+.manu a::before {
+    content: "";
+    width: 0%;
+    position: absolute;
+    height: 3px;
+    background: linear-gradient(to right, rgb(122, 15, 24), white);
+    left: 0;
+    transition: 1s ease;
+    bottom: 0px;
+}
+
+.manu a:hover:before {
+    width: 100%;
+}
+
+.bar {
+    font-size: 30px;
+}
+
+.icon {
+    display: none;
+}
+
+/* header-section */
+.header-value {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.left-side {
+    width: 60vw;
+    margin-top: 100px;
+    padding: 40px;
+}
+
+.left-head {
+    margin-bottom: 30px;
+}
+
+.left-text {
+    margin-bottom: 10px;
+    line-height: 28px;
+}
+
+.left-animation {
+    font-size: 60px;
+    color: rgb(196, 129, 41);
+    border-right: 2px solid rgb(24, 23, 23);
+    padding-right: 0px;
+    overflow: hidden;
+    animation: slide 7s steps(10) infinite;
+    white-space: nowrap;
+}
+
+@keyframes slide {
+    0% {
+        width: 0ch;
+    }
+
+    50% {
+        width: 12.4ch;
+    }
+
+    100% {
+        width: 0ch;
+    }
+}
+
+.right-side {
+    width: 40vw;
+}
+
+header {
+    padding-bottom: 70px;
+    overflow: hidden;
+}
+
+.language {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+
+.lang {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.card {
+    width: 300px;
+    height: 250px;
+    gap: 20px;
+    border-radius: 5px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: rgb(250, 229, 229);
+    padding: 20px;
+    text-align: center;
+    transition: 0.5s linear;
+}
+
+.card:hover {
+    transform: scale(1.050);
+    box-shadow: 0 5PX 10PX grey;
+}
+
+.card-head {
+    padding: 10px;
+}
+
+.card-text {
+    line-height: 28px;
+    font-size: 20px;
+}
+
+.COURSE {
+    text-align: center;
+    margin: 70px;
+}
+
+.course {
+    padding: 15px;
+}
+
+.nav-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.button {
+    position: relative;
+    background: linear-gradient(to right, red, rgb(255, 174, 0), rgb(4, 203, 83), rgb(10, 68, 242), rgb(229, 9, 241), rgb(21, 156, 219));
+    border-radius: 5px;
+    height: 60px;
+    width: 180px;
+}
+
+.butt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 60px;
+    height: 94%;
+    width: 97%;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    animation: slida 1s linear infinite;
+    -webkit-animation: slida 1s linear infinite;
+}
+
+@keyframes slida {
+    100% {
+        filter: hue-rotate(-360deg);
+    }
+}
+
+.butt:hover {
+    display: block;
+    box-shadow: 0 0 10px black;
+}
+
+marquee img {
+    height: 80px;
+    padding-left: 70px;
+}
+
+.flexe {
+    margin: 120px auto;
+}
+
+.marq {
+    margin: 20px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.mar-head {
+    font-size: 45px;
+    padding-bottom: 30px;
+}
+
+.flexbox {
+    background: linear-gradient(to top left, rgb(24, 30, 136), rgb(8, 235, 216));
+}
+
+.flex-bar {
+    display: flex;
+    margin: 50px auto;
+    padding-bottom: 70px;
+}
+
+.file {
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.text {
+    visibility: hidden;
+}
+
+.file {
+    width: 100px;
+    flex-grow: 1;
+    cursor: pointer;
+    animation: slid 3s linear infinite;
+}
+
+@keyframes slid {
+    50% {
+        background-position: center;
+    }
+}
+
+.file:hover {
+    flex-grow: 4;
+    background-position: left, right;
+}
+
+.box-text {
+    text-align: center;
+}
+
+.flex-head {
+    padding: 30px;
+}
+
+.flex-text {
+    color: white;
+}
+
+.laft-side {
+    width: 30vw;
+    margin-top: 60px;
+}
+
+.laft-head {
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.left-right {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 90PX auto;
+}
+
+.raght-side {
+    width: 50vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10PX;
+}
+
+.box {
+    width: 300px;
+    height: 200px;
+
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s linear;
+    border-radius: 10px;
+}
+
+.box img:hover {
+    transform: scale(1.050);
+    box-shadow: 0 5PX 10PX grey;
+    border: 2px solid white;
+}
+
+.butto {
+    padding: 8px 18px;
+    font-size: 25px;
+    border-radius: 5px;
+    background-color: rgb(122, 15, 24);
+    color: white;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.8s linear;
+    margin-top: 20px;
+}
+
+.butto:focus {
+    transform: translateX(300px);
+    animation: color 2s linear infinite;
+}
+
+@keyframes color {
+    0% {
+        background-color: rgb(225, 13, 31);
+        color: white;
+    }
+
+    50% {
+        background-color: rgb(255, 174, 0);
+        color: black;
+    }
+
+    100% {
+        background-color: rgb(13, 41, 225);
+        color: white;
+    }
+}
+
+.lift-text {
+    width: 50vw;
+    margin-top: 100px;
+    padding-top: 50px;
+    background-image: url(asset-34.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-right {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.right-img {
+    width: 50vw;
+    position: relative;
+    margin: 70px auto;
+}
+
+.right-img img {
+    height: 500px;
+    box-shadow: 0 0 5px grey;
+}
+
+.nav-foot {
+    background: linear-gradient(to top left, rgb(25, 72, 25), rgb(85, 25, 25));
+}
+
+.input {
+    width: 300px;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+}
+
+.inp {
+    display: block;
+    width: 100%;
+    margin: 20px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    font-size: 22px;
+}
+
+#sub {
+    background-color: rgb(122, 15, 24);
+    color: white;
+    border: none;
+    font-size: 22px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+#sub:hover {
+    box-shadow: 0 0 10px gold;
+    background-color: white;
+    color: black;
+}
+
+.card-foot {
+    display: block;
+    color: white;
+    margin-bottom: 50px;
+    padding: 30px;
+}
+
+.card-foot a {
+    display: flex;
+    line-height: 50px;
+    text-align: center;
+}
+
+.sub-footer {
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(to top right, rgb(109, 112, 112), rgb(235, 237, 235));
+}
+
+.icon {
+    color: black;
+}
